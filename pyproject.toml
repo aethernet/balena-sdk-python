@@ -5,7 +5,6 @@ description = ""
 authors = ["Balena <info@balena.io>"]
 license = "Apache License 2.0"
 readme = "README.md"
-private = true
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
