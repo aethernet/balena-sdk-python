@@ -18,4 +18,6 @@ jobs:
     if: |
       (github.event.pull_request.head.repo.full_name == github.repository && github.event_name == 'pull_request') ||
       (github.event.pull_request.head.repo.full_name != github.repository && github.event_name == 'pull_request_target')
-    secrets: inherit
+    secrets:
+      FLOWZONE_TOKEN: ${{ secrets.FLOWZONE_TOKEN }}
+      DTRACK_TOKEN: ${{ secrets.DTRACK_TOKEN }}

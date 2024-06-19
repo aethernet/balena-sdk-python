@@ -6,6 +6,7 @@ authors = ["Balena <info@balena.io>"]
 license = "Apache License 2.0"
 readme = "README.md"
 packages = [{include = "balena"}]
+private = true
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
